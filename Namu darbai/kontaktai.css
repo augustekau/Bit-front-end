@@ -1,23 +1,38 @@
+img {
+  width: 250px;
+}
 h1 {
   color: white;
   font-size: 30px;
   background-color: green;
-  width: 300px;
-  text-align: center;
 }
 h3 {
   color: white;
   background-color: green;
   font-size: 20px;
-  width: 300px;
   text-align: center;
 }
 ul {
   color: #034d28;
+  padding: 0;
+  list-style-type: none;
 }
 input {
   background-color: rgb(217, 235, 217);
 }
-body {
+.main {
+  background: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.container {
   background: rgb(247, 242, 237);
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.checkbox-label {
+  line-height: 50px;
 }
